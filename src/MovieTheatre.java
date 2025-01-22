@@ -121,9 +121,9 @@ public class MovieTheatre {
             switch (choice) {
                 case 1 -> Theatre.displaySeatingChart();
                 case 2 -> {
-                    System.out.print("Enter row number to reserve: ");
+                    System.out.print("Enter row number to reserve (1-5): ");
                     int row = scanner.nextInt();
-                    System.out.print("Enter column number to reserve: ");
+                    System.out.print("Enter column number to reserve (1-5): ");
                     int col = scanner.nextInt();
                     Theatre.reserveSeat(row, col);
                 }
